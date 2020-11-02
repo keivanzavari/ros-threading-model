@@ -1,6 +1,8 @@
-#include <ros/ros.h>
 
 #include <string>
+
+#include "ros/ros.h"
+#include "std_msgs/String.h"
 
 class CustomPublisher {
  public:

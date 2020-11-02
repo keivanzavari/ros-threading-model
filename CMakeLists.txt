@@ -7,8 +7,8 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy)
 
 catkin_package()
 
-add_executable(publisher publisher_node.cpp)
+add_executable(publisher src/publisher_node.cc)
 target_link_libraries(publisher ${catkin_LIBRARIES})
 
-add_executable(subscriber subscriber_node.cpp)
-target_link_libraries(subscriber ${catkin_LIBRARIES})
+# add_executable(subscriber src/subscriber_node.cc)
+# target_link_libraries(subscriber ${catkin_LIBRARIES})
