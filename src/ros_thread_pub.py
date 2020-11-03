@@ -24,7 +24,7 @@ def main():
     if sys.argv[1]:
         proc_id = sys.argv[1]
     rospy.init_node(f"pub_{proc_id}")
-    print(f"Publisher node {rospy.get_name()} started.")
+    rospy.logwarn(f"Publisher node {rospy.get_name()} started.")
     thread = threading.Thread(target=publisher)
     thread.start()
     rospy.spin()
