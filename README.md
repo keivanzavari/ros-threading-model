@@ -5,21 +5,21 @@ The files are taken from the answer [here](https://answers.ros.org/question/9543
 
 ## C++
 ```bash
-* rosrun threading_model publisher A
-* rosrun threading_model publisher B
+* rosrun threading_model cpp_publisher_node A
+* rosrun threading_model cpp_publisher_node B
 
-* rosrun threading_model subscriber C
-* rosrun threading_model subscriber D
+* rosrun threading_model cpp_subscriber_node C
+* rosrun threading_model cpp_subscriber_node D
 ```
 
 ## Python
 
 ```bash
-* rosrun threading_model ros_thread_pub A
-* rosrun threading_model ros_thread_pub B
+* rosrun threading_model python_publisher_node A
+* rosrun threading_model python_publisher_node B
 
-* rosrun threading_model ros_thread_sub C
-* rosrun threading_model ros_thread_sub D
+* rosrun threading_model python_subscriber_node C
+* rosrun threading_model python_subscriber_node D
 ```
 
 ## results
